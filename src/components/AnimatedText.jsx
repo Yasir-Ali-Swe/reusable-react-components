@@ -15,9 +15,8 @@ const AnimatedText = () => {
             {
                 scrollTrigger: {
                     trigger: ".targetDiv",
-                    start: "top top",
+                    start: "top 20%",
                     toggleActions: "play none none reverse",
-                    markers: true,
                 }
             }
         )
